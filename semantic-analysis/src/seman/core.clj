@@ -23,6 +23,10 @@
 (defn- make-edges [id nodes]
   (map #(hash-map :from id :to (:id %)) nodes))
 
+(defn- leaf-visitor [node state]
+  (when (and (map? node) (-> node :chunk first string?))
+    {:state (conj state {:from (:id node) :to (keyword (gensym)) :label (-> node :chunk first)})}))
+
 (defn- edge-visitor [node state]
   {:state (concat state (make-edges (:id node) (walk-edges node)))})
 
@@ -30,11 +34,21 @@
   (when (map? node)
     {:state (conj state (select-keys node [:id :tag]))}))
 
+
 (defn finder [visitor]
   (fn [node]
     (:state
       (tree-visitor (tree-zipper node) #{} [visitor]))))
 
+(def leaf-finder (finder leaf-visitor))
+
 (def node-finder (finder node-visitor))
 
 (def edge-finder (finder edge-visitor))
+
+
+;(def x (analyze "what is the highest mountain in florida ?"))
+;
+;(pprint x)
+
+;(pprint  (leaf-finder x)) 
