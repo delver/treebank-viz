@@ -1,0 +1,14 @@
+target
+lib
+classes
+checkouts
+work
+pom.xml
+*.jar
+*.class
+.lein-deps-sum
+.lein-failures
+.lein-plugins
+.lein-env
+.lein-repl-history
+setenv.sh
