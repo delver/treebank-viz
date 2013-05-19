@@ -4,27 +4,47 @@
         [hiccup.middleware :only [wrap-base-url]]
         [ring.middleware.params :only [wrap-params]] 
         [ring.util.io :only [piped-input-stream]]
-        [ring.util.response :only [response]]
+        [ring.util.response :only [response content-type status]]
         [seman.svg]
         [seman.core]
         )
-  (:require [compojure.handler :as handler]))
+  (:require [compojure.handler :as handler])
+  (:import [java.io ByteArrayInputStream ByteArrayOutputStream OutputStreamWriter]))
 
-(defn process-request [sentence]
-  (let [result (analyze sentence)
-        nodes  (node-finder result)
-        edges  (edge-finder result)]
-  (pprint result)
-  (response 
-    (piped-input-stream
-          (fn [out]
-            (->svg nodes edges out)))))) 
+(defn svg [sentence]
+  (if (seq sentence)
+    (let [result (analyze sentence)
+          nodes  (node-finder result)
+          edges  (edge-finder result)]
+      (->
+        (piped-input-stream #(->svg nodes edges %))
+        (response)
+        (content-type "image/svg+xml")))
+    (-> 
+      (response "No sentence supplied") 
+      (status 400)))) 
+
+(defn- create-pipe [f pipe-size]
+  (with-open [out-stream (ByteArrayOutputStream. pipe-size)]
+    (f out-stream)
+    (ByteArrayInputStream. (.toByteArray out-stream))))
+
+(defn text [sentence]
+  (if (seq sentence)
+    (let [result (analyze sentence)]
+      (->
+        (create-pipe #(pprint result (OutputStreamWriter. %)) 0x10000)
+        (response)
+        (content-type "text/plain"))) 
+    (-> 
+      (response "No sentence supplied") 
+      (status 400)))) 
 
 (defroutes app-routes
-  (GET "/" [:as req]
-    (if-let [sentence (get-in req [:params :q])]
-      (process-request sentence)
-      (response "Add a query string to the URL, e.g. ?q=Why did the chicken cross the road ?")))) 
+  (GET "/svg" [:as req] (svg (get-in req [:params :q])))
+  (GET "/text" [:as req] (text (get-in req [:params :q])))
+  
+  )
 
 (def app 
   (-> 
