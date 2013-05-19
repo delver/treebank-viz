@@ -10,8 +10,8 @@
   [& keywords] 
   (->> keywords (map name) (clojure.string/join "-") keyword))
 
-(defn add-nodes [g nodes]
-  (reduce (fn [g node] (add-node g (:id node) (name (:tag node)))) g nodes))
+(defn add-nodes [g nodes & {:keys [fill-color] :or { fill-color "lightblue"}}]
+  (reduce (fn [g node] (add-node g (:id node) (name (:tag node)) :style {:fill fill-color})) g nodes))
 
 (defn fold-op [g edge]
   (let [src  (:from edge)
