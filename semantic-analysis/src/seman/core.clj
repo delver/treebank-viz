@@ -26,20 +26,15 @@
 (defn- edge-visitor [node state]
   {:state (concat state (make-edges (:id node) (walk-edges node)))})
 
-(defn edge-finder [node]
-  (:state
-    (tree-visitor (tree-zipper node) #{} [edge-visitor])))
-
 (defn- node-visitor [node state]
   (when (map? node)
     {:state (conj state (select-keys node [:id :tag]))}))
 
-(defn node-finder [node]
-  (:state
-    (tree-visitor (tree-zipper node) #{} [node-visitor])))
+(defn finder [visitor]
+  (fn [node]
+    (:state
+      (tree-visitor (tree-zipper node) #{} [visitor]))))
 
-;(def xx (analyze "which rivers run through states bordering new mexico ?"))
-;
-;(lacij.view.graphview/export 
-;  (->svg (node-finder xx) (edge-finder xx)) 
-;  "graph.svg") 
+(def node-finder (finder node-visitor))
+
+(def edge-finder (finder edge-visitor))
