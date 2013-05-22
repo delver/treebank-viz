@@ -2,7 +2,9 @@
   (:use [clojure.pprint] 
         [lacij.layouts.layout]
         [lacij.edit.graph]
-        [lacij.view.graphview]))
+        [lacij.view.graphview]
+        [lacij.view.core]
+        [analemma.xml]))
 
 (defn- join-keywords 
   "Converts a list of keywords into a combined form, 
@@ -10,8 +12,20 @@
   [& keywords] 
   (->> keywords (map name) (clojure.string/join "-") keyword))
 
+(defrecord TitleDecorator [title]
+  Decorator
+  (decorate [this view context]
+    [:title title]))
+
+(defn- add [fill-color g node]
+  (let [id (:id node) 
+        g (add-node g id (name (:tag node)) :style {:fill fill-color})]
+    (if-let [desc (:desc node)]
+      (add-decorator g id (TitleDecorator. desc))
+      g)))
+
 (defn add-nodes [g nodes & {:keys [fill-color] :or {fill-color "lightblue"}}]
-  (reduce (fn [g node] (add-node g (:id node) (name (:tag node)) :style {:fill fill-color})) g nodes))
+  (reduce (partial add fill-color) g nodes))
 
 (defn add-edges [g edges]
   (reduce 
@@ -39,3 +53,5 @@
     (layout :hierarchical)
     (build)
     (export stream :indent "yes")))
+
+

@@ -2,14 +2,18 @@
   (:use [clojure.pprint] 
         [opennlp.nlp]
         [opennlp.treebank]
-        [seman.tree-zipper]))
+        [seman.tree-zipper]
+        [seman.penn-tags]))
 
 (def treebank-parser (make-treebank-parser "../../data/opennlp.sourceforge.net/models-1.5/en-parser-chunking.bin"))
 
 (defn- add-identifiers 
-  "Takes a zipper and adds a unique identifier to each map node"
+  "Takes a zipper and adds a unique identifier and description to each map node"
   [zipper]
-  (tree-edit zipper map? (fn [_ node] (assoc node :id (keyword (gensym)))))) 
+  (tree-edit zipper map? (fn [_ node] 
+                           (assoc node 
+                             :id (keyword (gensym)) 
+                             :desc (get tags (:tag node) "Unknown"))))) 
 
 (defn analyze 
   "Breaks a sentence down into a tree zipper structure"
@@ -32,7 +36,7 @@
 
 (defn- node-visitor [node state]
   (when (map? node)
-    {:state (conj state (select-keys node [:id :tag]))}))
+    {:state (conj state (select-keys node [:id :tag :desc]))}))
 
 
 (defn finder [visitor]
@@ -45,10 +49,3 @@
 (def node-finder (finder node-visitor))
 
 (def edge-finder (finder edge-visitor))
-
-
-;(def x (analyze "what is the highest mountain in florida ?"))
-;
-;(pprint x)
-
-;(pprint  (leaf-finder x)) 

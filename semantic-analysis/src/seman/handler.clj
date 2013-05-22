@@ -6,8 +6,7 @@
         [ring.util.io :only [piped-input-stream]]
         [ring.util.response :only [response content-type status]]
         [seman.svg]
-        [seman.core]
-        )
+        [seman.core])
   (:require [compojure.handler :as handler])
   (:import [java.io ByteArrayInputStream ByteArrayOutputStream OutputStreamWriter]))
 
