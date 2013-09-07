@@ -108,3 +108,7 @@ produces a clojure-readable data structure as follows:
 ```
 
 * - Question attribution: [@garybernhardt](https://twitter.com/garybernhardt/status/376145933827727360)
+
+License
+-------
+As per [Creative Commons 3.0](http://creativecommons.org/licenses/by/3.0/legalcode)
