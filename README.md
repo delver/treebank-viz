@@ -8,15 +8,15 @@ Start with:
     $ lein ring server
 
 SVG graph available at 
-[http://localhost:3000/svg=Find the two-week period in the next six months with the most European conferences?] 
-(http://localhost:3000/svg=Find the two-week period in the next six months with the most European conferences?)* 
+[http://localhost:3000/svg?q=Find the two-week period in the next six months with the most European conferences?] 
+(http://localhost:3000/svg?q=Find the two-week period in the next six months with the most European conferences?)* 
 yields:
 
 ![SVG](https://rawgithub.com/delver/treebank-viz/master/example.svg)
 
 for example, or similar text representation at 
-[http://localhost:3000/text=Find the two-week period in the next six months with the most European conferences?] 
-(http://localhost:3000/text=Find the two-week period in the next six months with the most European conferences?)
+[http://localhost:3000/text?q=Find the two-week period in the next six months with the most European conferences?] 
+(http://localhost:3000/text?q=Find the two-week period in the next six months with the most European conferences?)
 produces a clojure-readable data structure as follows:
 
 ```clojure
