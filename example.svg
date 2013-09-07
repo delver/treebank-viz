@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="text/ecmascript" width="1860" zoomAndPan="magnify" contentStyleType="text/css" height="890" preserveAspectRatio="xMidYMid meet" overflow="visible" version="1.0">
+<defs>
+<marker refX="10" refY="5" markerUnits="strokeWidth" orient="auto" id="lacij-end-arrow-marker" markerHeight="10" viewBox="0 0 10 10" preserveAspectRatio="xMidYMid meet" markerWidth="14">
+<polyline points="0,0 10,5 0,10 1,5"/>
+</marker>
+</defs>
+<g id="graph0">
+<g>
+<g>
+<path style=" stroke: #000000;  stroke-width: 1; " d=" M755.0,775.0 L555.0,865.0 M555.0,865.0 Z"/>
+<line y2="845.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="555.0" x2="355.0" y1="865.0"/>
+</g>
+<text x="555.0" y="810.0" style=" dominant-baseline: central; " text-anchor="middle"/>
+</g>
+<g id="G__5513-G__5531">
+<line y2="565.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="565.0"/>
+</g>
+<g id="G__5500-G__5501">
+<line y2="195.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="1255.0" x2="1105.0" y1="417.0"/>
+</g>
+<g id="G__5511-G__5529">
+<line y2="445.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="445.0"/>
+</g>
+<g id="G__5502-G__5503">
+<line y2="105.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="505.0" x2="355.0" y1="155.0"/>
+</g>
+<g id="G__5518-G__5519">
+<line y2="745.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="505.0" x2="355.0" y1="755.0"/>
+</g>
+<g id="G__5502-G__5504">
+<line y2="145.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="505.0" x2="355.0" y1="155.0"/>
+</g>
+<g id="G__5517-G__5533">
+<line y2="685.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="685.0"/>
+</g>
+<g>
+<g>
+<path style=" stroke: #000000;  stroke-width: 1; " d=" M1005.0,175.0 L805.0,175.0 M805.0,175.0 Z"/>
+<line y2="175.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="805.0" x2="605.0" y1="175.0"/>
+</g>
+<text x="805.0" y="175.0" style=" dominant-baseline: central; " text-anchor="middle"/>
+</g>
+<g id="G__5515-G__5532">
+<line y2="625.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="625.0"/>
+</g>
+<g id="G__5506-G__5526">
+<line y2="265.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="265.0"/>
+</g>
+<g id="G__5520-G__5535">
+<line y2="805.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="805.0"/>
+</g>
+<g>
+<g>
+<path style=" stroke: #000000;  stroke-width: 1; " d=" M755.0,755.0 L555.0,685.0 M555.0,685.0 Z"/>
+<line y2="685.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="555.0" x2="355.0" y1="685.0"/>
+</g>
+<text x="555.0" y="720.0" style=" dominant-baseline: central; " text-anchor="middle"/>
+</g>
+<g id="G__5516-G__5518">
+<line y2="775.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="755.0" x2="605.0" y1="775.0"/>
+</g>
+<g id="G__5499-G__5522">
+<line y2="25.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="25.0"/>
+</g>
+<g id="G__5514-G__5516">
+<line y2="755.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="1005.0" x2="855.0" y1="720.0"/>
+</g>
+<g id="G__5505-G__5525">
+<line y2="205.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="205.0"/>
+</g>
+<g id="G__5521-G__5536">
+<line y2="865.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="865.0"/>
+</g>
+<g id="G__5508-G__5527">
+<line y2="325.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="325.0"/>
+</g>
+<g>
+<g>
+<path style=" stroke: #000000;  stroke-width: 1; " d=" M1005.0,700.0 L805.0,625.0 M805.0,625.0 L555.0,625.0 M555.0,625.0 Z"/>
+<line y2="625.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="555.0" x2="355.0" y1="625.0"/>
+</g>
+<text x="680.0" y="662.5" style=" dominant-baseline: central; " text-anchor="middle"/>
+</g>
+<g id="G__5500-G__5514">
+<line y2="680.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="1255.0" x2="1105.0" y1="457.0"/>
+</g>
+<g id="G__5512-G__5530">
+<line y2="505.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="505.0"/>
+</g>
+<g id="G__5509-G__5513">
+<line y2="545.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="505.0" x2="355.0" y1="495.0"/>
+</g>
+<g id="G__5509-G__5512">
+<line y2="505.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="505.0" x2="355.0" y1="495.0"/>
+</g>
+<g id="G__5509-G__5511">
+<line y2="445.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="505.0" x2="355.0" y1="455.0"/>
+</g>
+<g id="G__5509-G__5510">
+<line y2="405.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="505.0" x2="355.0" y1="455.0"/>
+</g>
+<g id="G__5507-G__5509">
+<line y2="455.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="755.0" x2="605.0" y1="420.0"/>
+</g>
+<g>
+<g>
+<path style=" stroke: #000000;  stroke-width: 1; " d=" M755.0,400.0 L555.0,325.0 M555.0,325.0 Z"/>
+<line y2="325.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="555.0" x2="355.0" y1="325.0"/>
+</g>
+<text x="555.0" y="362.5" style=" dominant-baseline: central; " text-anchor="middle"/>
+</g>
+<g id="G__5504-G__5524">
+<line y2="145.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="145.0"/>
+</g>
+<g id="G__5498-G__5500">
+<line y2="417.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="1505.0" x2="1355.0" y1="142.0"/>
+</g>
+<g id="G__5503-G__5523">
+<line y2="85.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="85.0"/>
+</g>
+<g id="G__5519-G__5534">
+<line y2="745.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="745.0"/>
+</g>
+<g id="G__5502-G__5506">
+<line y2="245.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="505.0" x2="355.0" y1="195.0"/>
+</g>
+<g id="G__5501-G__5507">
+<line y2="380.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="1005.0" x2="855.0" y1="195.0"/>
+</g>
+<g id="G__5502-G__5505">
+<line y2="205.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="505.0" x2="355.0" y1="195.0"/>
+</g>
+<g id="G__5510-G__5528">
+<line y2="385.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="255.0" x2="105.0" y1="385.0"/>
+</g>
+<g id="G__5518-G__5520">
+<line y2="805.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="505.0" x2="355.0" y1="795.0"/>
+</g>
+<g id="G__5497-G__5498">
+<line y2="122.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="1755.0" x2="1605.0" y1="122.0"/>
+</g>
+<g>
+<g>
+<path style=" stroke: #000000;  stroke-width: 1; " d=" M1505.0,122.0 L1305.0,25.0 M1305.0,25.0 L1055.0,25.0 M1055.0,25.0 L805.0,25.0 M805.0,25.0 L555.0,25.0 M555.0,25.0 Z"/>
+<line y2="25.0" marker-end="url(#lacij-end-arrow-marker)" style=" stroke: #000000;  stroke-width: 1; " x1="555.0" x2="355.0" y1="25.0"/>
+</g>
+<text x="930.0" y="73.5" style=" dominant-baseline: central; " text-anchor="middle"/>
+</g>
+<g id="G__5516" transform="translate(755.0, 755.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">NP</text>
+<title>Noun Phrase. </title>
+</g>
+<g id="G__5515" transform="translate(255.0, 605.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">IN</text>
+<title>Preposition or subordinating conjunction</title>
+</g>
+<g id="G__5517" transform="translate(255.0, 665.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">DT</text>
+<title>Determiner</title>
+</g>
+<g id="G__5514" transform="translate(1005.0, 680.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">PP</text>
+<title>Prepositional Phrase.</title>
+</g>
+<g id="G__5518" transform="translate(505.0, 755.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">ADJP</text>
+<title>Adjective Phrase.</title>
+</g>
+<g id="G__5513" transform="translate(255.0, 545.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">NNS</text>
+<title>Noun, plural</title>
+</g>
+<g id="G__5519" transform="translate(255.0, 725.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">RBS</text>
+<title>Adverb, superlative</title>
+</g>
+<g id="G__5512" transform="translate(255.0, 485.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">CD</text>
+<title>Cardinal number</title>
+</g>
+<g id="G__5521" transform="translate(255.0, 845.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">NN</text>
+<title>Noun, singular or mass</title>
+</g>
+<g id="G__5522" transform="translate(5.0, 5.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">Find</text>
+</g>
+<g id="G__5509" transform="translate(505.0, 455.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">NP</text>
+<title>Noun Phrase. </title>
+</g>
+<g id="G__5520" transform="translate(255.0, 785.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">JJ</text>
+<title>Adjective</title>
+</g>
+<g id="G__5505" transform="translate(255.0, 185.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">NN</text>
+<title>Noun, singular or mass</title>
+</g>
+<g id="G__5504" transform="translate(255.0, 125.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">CD</text>
+<title>Cardinal number</title>
+</g>
+<g id="G__5506" transform="translate(255.0, 245.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">NN</text>
+<title>Noun, singular or mass</title>
+</g>
+<g id="G__5503" transform="translate(255.0, 65.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">DT</text>
+<title>Determiner</title>
+</g>
+<g id="G__5507" transform="translate(755.0, 380.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">PP</text>
+<title>Prepositional Phrase.</title>
+</g>
+<g id="G__5502" transform="translate(505.0, 155.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">NP</text>
+<title>Noun Phrase. </title>
+</g>
+<g id="G__5508" transform="translate(255.0, 305.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">IN</text>
+<title>Preposition or subordinating conjunction</title>
+</g>
+<g id="G__5501" transform="translate(1005.0, 155.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">NP</text>
+<title>Noun Phrase. </title>
+</g>
+<g id="G__5499" transform="translate(255.0, 5.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">VB</text>
+<title>Verb, base form</title>
+</g>
+<g id="G__5532" transform="translate(5.0, 605.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">with</text>
+</g>
+<g id="G__5533" transform="translate(5.0, 665.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">the</text>
+</g>
+<g id="G__5497" transform="translate(1755.0, 102.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">TOP</text>
+<title>Unknown</title>
+</g>
+<g id="G__5530" transform="translate(5.0, 485.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">six</text>
+</g>
+<g id="G__5498" transform="translate(1505.0, 102.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">VP</text>
+<title>Verb Phrase. </title>
+</g>
+<g id="G__5531" transform="translate(5.0, 545.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">months</text>
+</g>
+<g id="G__5536" transform="translate(5.0, 845.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">conferences?</text>
+</g>
+<g id="G__5535" transform="translate(5.0, 785.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">European</text>
+</g>
+<g id="G__5534" transform="translate(5.0, 725.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">most</text>
+</g>
+<g id="G__5500" transform="translate(1255.0, 417.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">NP</text>
+<title>Noun Phrase. </title>
+</g>
+<g id="G__5527" transform="translate(5.0, 305.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">in</text>
+</g>
+<g id="G__5526" transform="translate(5.0, 245.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">period</text>
+</g>
+<g id="G__5528" transform="translate(5.0, 365.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">the</text>
+</g>
+<g id="G__5525" transform="translate(5.0, 185.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">week</text>
+</g>
+<g id="G__5529" transform="translate(5.0, 425.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">next</text>
+</g>
+<g id="G__5524" transform="translate(5.0, 125.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">two</text>
+</g>
+<g id="G__5523" transform="translate(5.0, 65.0)">
+<rect rx="5" width="100" ry="5" height="40" style=" fill: lightgreen;  stroke: black; "/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">the</text>
+</g>
+<g id="G__5510" transform="translate(255.0, 365.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">DT</text>
+<title>Determiner</title>
+</g>
+<g id="G__5511" transform="translate(255.0, 425.0)">
+<rect style=" fill: lightblue;  stroke: black; " width="100" height="40"/>
+<text x="50" font-size="12" y="20" style=" dominant-baseline: central; " text-anchor="middle">JJ</text>
+<title>Adjective</title>
+</g>
+</g>
+</svg>
