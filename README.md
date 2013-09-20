@@ -112,3 +112,7 @@ produces a clojure-readable data structure as follows:
 License
 -------
 As per [Creative Commons 3.0](http://creativecommons.org/licenses/by/3.0/legalcode)
+
+References
+----------
+* http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
