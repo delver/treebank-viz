@@ -116,3 +116,7 @@ As per [Creative Commons 3.0](http://creativecommons.org/licenses/by/3.0/legalco
 References
 ----------
 * http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/delver/treebank-viz/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
